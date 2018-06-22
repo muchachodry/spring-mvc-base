@@ -16,7 +16,7 @@ public class RootController {
 
 	@ModelAttribute
 	public void addAttributes(Model model) {
-	    model.addAttribute("s","../home/resources");
+	    model.addAttribute("s","/static/home/resources");
 	}
 	
 	@GetMapping({"/","/index"})
